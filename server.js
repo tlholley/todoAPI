@@ -36,7 +36,7 @@ app.get('/todos', function (req, res) {
 	}, function (e) {
 		res.status(500).send();
 	});
-
+// changed to sequalize
 	// var filteredTodos = todos;
 
 	// if(queryParams.hasOwnProperty('completed') && queryParams.completed === 'true'){
